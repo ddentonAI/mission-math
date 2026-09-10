@@ -1,6 +1,6 @@
 # Mission: Math
 
-Play: **https://math.daviddenton.ca**
+Play: **https://ddentonai.github.io/mission-math/**
 
 Space-themed adaptive math practice for **Cadet Alastair**, Alberta Grade 3, on a regular iPad in landscape.
 
