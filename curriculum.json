@@ -1,0 +1,253 @@
+{
+  "student": {
+    "id": "alastair",
+    "displayName": "Alastair",
+    "grade": 3,
+    "jurisdiction": "Alberta",
+    "curriculumYear": 2022
+  },
+  "phase1SkillIds": ["NUM-AS", "NUM-MD", "TIM-CLK", "MEA-PER"],
+  "notes": "Skill IDs follow the build spec. outcomeRef values are Alberta 2022 Grade 3 learning outcomes. Place value in the spec is to 10 000; the official outcome is to 100 000 — left as specified until we reconcile.",
+  "nodes": [
+    {
+      "id": "NUM-PV",
+      "strand": "Number",
+      "title": "Place value to 10 000",
+      "outcomeRef": "Students interpret place value within 100 000.",
+      "theme": "Fuel tanks: thousands / hundreds / tens / ones tanks on the ship",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "3-digit expanded form",
+        "compare and order 4-digit numbers",
+        "represent 4-digit numbers in more than one way",
+        "round and estimate",
+        "flexible regrouping"
+      ]
+    },
+    {
+      "id": "NUM-AS",
+      "strand": "Number",
+      "title": "Addition and subtraction within 1000",
+      "outcomeRef": "Students apply strategies for addition and subtraction within 1000.",
+      "theme": "Cargo loading at the orbital depot",
+      "prereqs": ["NUM-PV"],
+      "maxLevel": 5,
+      "levels": [
+        "no regrouping",
+        "one regroup",
+        "two regroups",
+        "3-digit with zeros",
+        "2-step word problems"
+      ]
+    },
+    {
+      "id": "NUM-MD",
+      "strand": "Number",
+      "title": "Multiplication and division within 100",
+      "outcomeRef": "Students analyze and apply strategies for multiplication and division within 100.",
+      "theme": "Solar panel arrays and crew pods",
+      "prereqs": ["NUM-AS", "PAT-MUL"],
+      "maxLevel": 5,
+      "levels": [
+        "equal groups and skip counting",
+        "arrays",
+        "facts ×2 ×5 ×10",
+        "facts ×3 ×4 ×6–×9",
+        "division, fact families, remainders"
+      ]
+    },
+    {
+      "id": "NUM-FR",
+      "strand": "Number",
+      "title": "Fractions",
+      "outcomeRef": "Students interpret fractions in relation to one whole.",
+      "theme": "Oxygen tanks and planet slices",
+      "prereqs": ["NUM-MD"],
+      "maxLevel": 5,
+      "levels": [
+        "name parts of a whole",
+        "numerator and denominator",
+        "fractions of a set",
+        "on a number line",
+        "compare same denominator, then same numerator"
+      ]
+    },
+    {
+      "id": "PAT-SEQ",
+      "strand": "Patterns",
+      "title": "Increasing and decreasing numerical sequences",
+      "outcomeRef": "Students analyze patterns in numerical sequences.",
+      "theme": "Navigation beacons along a flight path",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "+2 / +5 / +10 forward",
+        "backward",
+        "find the rule",
+        "missing middle terms",
+        "two-step or non-constant rules"
+      ]
+    },
+    {
+      "id": "PAT-MUL",
+      "strand": "Patterns",
+      "title": "Multiples and skip counting",
+      "outcomeRef": "Students analyze patterns in numerical sequences.",
+      "theme": "Orbit ticks around a planet",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "count by 2, 5, 10",
+        "count by 3, 4",
+        "identify multiples",
+        "skip count from a non-zero start",
+        "patterns on a hundred chart"
+      ]
+    },
+    {
+      "id": "ALG-EQ",
+      "strand": "Algebra",
+      "title": "Equality and equations with an unknown",
+      "outcomeRef": "Students illustrate equality with equations.",
+      "theme": "Airlock balance beam — both sides must match or the door won't open",
+      "prereqs": ["NUM-AS"],
+      "maxLevel": 5,
+      "levels": [
+        "true or false equations",
+        "balance both sides",
+        "unknown in the result position",
+        "unknown in any position",
+        "unknown from a word problem"
+      ]
+    },
+    {
+      "id": "GEO-POLY",
+      "strand": "Geometry",
+      "title": "Polygons: sides, vertices, classification",
+      "outcomeRef": "Students relate geometric properties to shape.",
+      "theme": "Station modules you bolt together",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "name common polygons",
+        "count sides and vertices",
+        "sort by one attribute",
+        "sort by two attributes",
+        "identify irregular polygons"
+      ]
+    },
+    {
+      "id": "GEO-TRANS",
+      "strand": "Geometry",
+      "title": "Transformations and symmetry",
+      "outcomeRef": "Students relate geometric properties to shape.",
+      "theme": "Satellite panels and mirrored hull plating",
+      "prereqs": ["GEO-POLY"],
+      "maxLevel": 5,
+      "levels": [
+        "recognize a line of symmetry",
+        "complete a symmetric figure",
+        "slide / flip / turn identification",
+        "predict the result of a transformation",
+        "combine two transformations"
+      ]
+    },
+    {
+      "id": "MEA-LEN",
+      "strand": "Measurement",
+      "title": "Length, units and referents",
+      "outcomeRef": "Students determine length using standard units.",
+      "theme": "Rover traverse on the surface",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "choose cm vs m",
+        "estimate with a referent",
+        "measure to the nearest cm",
+        "convert cm ↔ m",
+        "relate to inch / foot"
+      ]
+    },
+    {
+      "id": "MEA-PER",
+      "strand": "Measurement",
+      "title": "Perimeter",
+      "outcomeRef": "Students determine length using standard units.",
+      "theme": "Landing pad fencing",
+      "prereqs": ["GEO-POLY", "MEA-LEN"],
+      "maxLevel": 5,
+      "levels": [
+        "count unit sides",
+        "rectangle perimeter",
+        "irregular polygon perimeter",
+        "missing side given perimeter",
+        "compare two shapes"
+      ]
+    },
+    {
+      "id": "MEA-ANG",
+      "strand": "Measurement",
+      "title": "Angles",
+      "outcomeRef": "Students interpret angles.",
+      "theme": "Telescope aiming and launch trajectory",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "recognize an angle",
+        "compare to a right angle",
+        "smaller or larger than a right angle",
+        "order by size",
+        "find angles in shapes"
+      ]
+    },
+    {
+      "id": "TIM-CLK",
+      "strand": "Time",
+      "title": "Telling time",
+      "outcomeRef": "Students tell time using clocks.",
+      "theme": "Mission clock counting to launch",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "o'clock and half past",
+        "to 5 minutes",
+        "to the minute",
+        "minutes until the next hour",
+        "elapsed time within an hour"
+      ]
+    },
+    {
+      "id": "TIM-DAY",
+      "strand": "Time",
+      "title": "a.m./p.m. and the 24-hour cycle",
+      "outcomeRef": "Students tell time using clocks.",
+      "theme": "Station day/night as you orbit Earth 16 times a day",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "day vs night activities",
+        "assign a.m. or p.m.",
+        "order events in a day",
+        "24-hour cycle reasoning",
+        "duration across a.m./p.m."
+      ]
+    },
+    {
+      "id": "STA-DATA",
+      "strand": "Statistics",
+      "title": "Collect, organize and interpret first-hand data",
+      "outcomeRef": "Students interpret and explain representations of data.",
+      "theme": "Alien species survey logged by the ship's scanner",
+      "prereqs": [],
+      "maxLevel": 5,
+      "levels": [
+        "read a pictograph",
+        "tally and frequency table",
+        "read a bar graph",
+        "build a bar graph from data",
+        "compare and answer 2-step questions"
+      ]
+    }
+  ]
+}
